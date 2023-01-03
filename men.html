@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man-VA.com</title>
+    <!-- <link rel="stylesheet" href="free.css"> -->
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+
+        /* header  */
+        .men-1 {
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* border: 3px solid black; */
+            grid-template-rows: 140px;
+
+
+        }
+
+
+
+        .item-1 {
+            /* border: 2px solid red; */
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: rgba(37, 47, 46, 0.545);
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+
+
+
+
+
+        .item-1-1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            font-size: 15px;
+        }
+
+        .item-1-1 img {
+            width: 130px;
+            height: 15vh;
+            padding: 15px;
+            float: right;
+        }
+
+        .item-1-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            font-size: 15px;
+        }
+
+        .item-1-2 img {
+            width: 130px;
+            height: 15vh;
+            padding: 15px;
+            float: right;
+        }
+
+        .item-1-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            font-size: 15px;
+        }
+
+        .item-1-3 img {
+            width: 130px;
+            height: 15vh;
+            padding: 15px;
+            float: right;
+        }
+
+
+        .men-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 25%));
+            margin-top: 28px;
+            margin-bottom: 28px;
+        }
+
+
+        /* main part */
+
+
+
+        .item-2-1 {
+            /* border: 2px solid red; */
+            margin: 10%;
+            /* padding: 20px; */
+            border-radius: 10px;
+            display: grid;
+            grid-template-rows: 350px;
+        }
+
+
+        .item-2-1 img {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+        }
+
+
+
+        .item-2-1 a {
+            width: 99%;
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+            font-size: 25px;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 8px;
+            border: 2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .item-2-1 a:hover {
+            background-color: #bacde7;
+            transform: scale(1.05);
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        .footer {
+            width: 100%;
+            height: 70px;
+            background-color: rgba(37, 47, 46, 0.545);
+            display: grid;
+            grid-template-columns: auto 1fr;
+        }
+
+        .footer img {
+            width: 80px;
+            height: 70px;
+            margin-left: 30px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            float: right;
+            margin-top: 28px;
+            margin-right: 4%;
+        }
+
+        @media screen and (max-width:450px) {
+
+
+            .footer img {
+                display: none;
+            }
+
+            .footer a {
+                float: left;
+                margin-left: 4%;
+                margin-right: 0px;
+            }
+
+        }
+
+
+
+        @media screen and (max-width:1000px) {
+
+            .item-1 {
+
+                background-color: #006aff;
+                background-color: rgba(37, 47, 46, 0.545);
+                width: 100%;
+                height: 21vh;
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+
+
+            .item-1-3 {
+                display: none;
+
+            }
+
+
+        }
+
+
+        @media screen and (max-width:800px) {
+
+            .men-2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+            }
+
+            .item-1 {
+                background-color: rgba(37, 47, 46, 0.545);
+                grid-template-columns: 1fr;
+                color: white;
+
+            }
+
+
+            .item-1-2 {
+                display: none;
+            }
+
+            .item-1-3 {
+                display: none;
+            }
+
+
+        }
+
+
+
+        @media screen and (max-width:500px) {
+
+
+
+
+            .men-2 {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+
+        }
+
+        @media screen and (max-width:300px) {
+
+            .item-1-1 {
+                display: none;
+            }
+
+            .item-1-2 {
+                display: none;
+            }
+
+            .item-1-3 {
+                display: none;
+            }
+
+
+        }
+
+
+        .item-1-1-2 {
+            padding-top: 15px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="men-1">
+        <div class="item-1">
+            <div class="item-1-1">
+                <div>
+                    <img src="men-Tshirts-ad.jpg" alt="">
+                </div>
+                <div class="item-1-1-2">
+                    <h1>40% OFF ON <br> T-Shirts</h1>
+                    <p>Buy Now</p>
+                </div>
+            </div>
+            <div class="item-1-2">
+                <div>
+                    <img src="Hoodie.jpg" alt="">
+                </div>
+                <div class="item-1-1-2">
+                    <h1>50% OFF ON Hoodies</h1>
+                    <p>Buy Now</p>
+                </div>
+            </div>
+            <div class="item-1-3">
+                <div>
+                    <img src="men-accessories-ad.jpg" alt="">
+                </div>
+                <div class="item-1-1-2">
+                    <h1>60% OFF ON Accessories</h1>
+                    <p>Buy Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="men-2">
+        <div class="item-2-1" style="height: 400px;">
+            <img src="MENshirts.jpg" alt="">
+            <a href="#" target="_blank">Shirts</a>
+        </div>
+        <div class="item-2-1" style="height: 400px;">
+            <img src="men-tshirts.jpg" alt="">
+            <a href="#" target="_blank">T-Shirts</a>
+        </div>
+        <div class="item-2-1" style="height: 400px;">
+            <img src="men-jeans.jpg" alt="">
+            <a href="#" target="_blank">Jeans</a>
+        </div>
+        <div class="item-2-1" style="height: 400px;">
+            <img src="MENaccessories.jpg" alt="">
+            <a href="www.google.com" target="_blank">Accessories</a>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div>
+            <img src="logo.png" alt="">
+        </div>
+        <div>
+            <a href="https://www.instagram.com/harshit_rajpurohit293/?igshid=ZDdkNTZiNTM%3D" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/people/Harshit-Rajpurohit/100087081699554/?mibextid=ZbWKwL" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/harshit-rajpurohit-ab214324a/" target="_blank">Linkedin</a>
+            <a href="https://www.snapchat.com/add/harshit1_29?share_id=LMNQ-rerWCA&locale=en-GB" target="_blank">Snapchat</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
